@@ -1,6 +1,8 @@
 # MicrosoftEduA1CreateUsers
 ### 批量创建微软教育A1用户
 * 下载代码到你的任意目录下
+`pip install requests`  python2  
+
 
 * 首先打开F12 我一般是`ctri + shift+c` 打开的 选中 network  
 
@@ -25,3 +27,6 @@
 * 如果创建的用户名不是mjj002 需要修改 CreateUser.py的第7行 `FITST_USER_NAME` 为刚刚创建的用户名. 
 
 运行 `python CreateUser.py `
+
+
+默认是从 0000001 开始创建 下一个用户名字是上一个用户的密码.
